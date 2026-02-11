@@ -10,5 +10,8 @@ public class Main {
         byte e=(byte)d;
         System.out.println(d);
         System.out.println(e);
+
+        byte c=(byte)128;
+        System.out.println(c);
     }
 }
