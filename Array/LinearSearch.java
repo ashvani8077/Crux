@@ -1,0 +1,21 @@
+package Array;
+
+import java.util.Scanner;
+
+public class LinearSearch {
+    static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int items=sc.nextInt();
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==items){
+                System.out.println(items+" is found at "+i+" index");
+                break;
+            }
+        }
+    }
+}
